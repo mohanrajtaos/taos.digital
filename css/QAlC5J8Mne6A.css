@@ -2380,7 +2380,12 @@ img.left {
     margin-right: -15px; }
     .row.xxlg-marg > * {
       padding-left: 15px;
-      padding-right: 15px; } }
+      padding-right: 15px; } 
+      .section-padding {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    }
 
 @media screen and (max-width: 768px) {
   .sm-mb10 {
