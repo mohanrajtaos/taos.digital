@@ -75,7 +75,12 @@
     letter-spacing: -1px;
     font-weight: 600; }
     .header-ds .caption h1 span {
-      font-weight: 400; }
+      font-weight: 400;
+      background: linear-gradient(90deg, #eb7a70 33.54%, #e62488 73.82%);
+      background-clip: text;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+  }
   .header-ds .social-icon a {
     width: 48px;
     height: 48px;
