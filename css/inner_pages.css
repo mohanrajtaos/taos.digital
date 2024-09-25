@@ -3,7 +3,7 @@
 :root {
   --bg-color: #18191b;
   --theme-color: #0e0f11;
-  --main-color: #d0ff71; }
+  --main-color: #d33873; }
 
 /* --------------- Menu --------------- */
 .navbar {
@@ -1095,12 +1095,15 @@
     .works-mp .item .cont h5 {
       font-weight: 400;
       margin-bottom: 15px; }
+      .works-mp.taos-works .item .cont h5 {
+        margin-top: 15px;
+    }
     .works-mp .item .cont span {
       font-size: 14px;
       font-weight: 300;
       text-transform: uppercase; }
     .works-mp .item .cont a {
-      padding: 5px 25px;
+      padding: 12px 24px;
       border-radius: 30px;
       border: 1px solid rgba(255, 255, 255, 0.1);
       -webkit-transition: all .4s;
